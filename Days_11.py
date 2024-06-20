@@ -17,6 +17,7 @@ letter = ''' Dear Name
                 
 print(letter.replace("Name", f"{name}").replace("Date",f"{today}"))
 
-
+ 
+ 
 # Note : Strings are also immutable so you cannot  change or replaced original string,
 # you can copy strings then you perform those tasks
